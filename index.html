@@ -23,8 +23,8 @@
     <meta name="theme-color" content="#5af97c">
     <style>
         :root {
-            --pink: #f002fc;
-            --green: #5af97c;
+            --primary: #5af97c;
+            --secondary: #f002fc;
         }
 
         body {
@@ -38,7 +38,7 @@
             padding: 5%;
             box-sizing: border-box;
             font-family: monospace;
-            background: linear-gradient(to top, var(--pink), var(--green));
+            background: linear-gradient(to top, var(--secondary), var(--primary));
             color: black;
         }
 
@@ -72,7 +72,7 @@
             cursor: pointer;
             border-radius: 15px;
             border: 3px solid black;
-            background: linear-gradient(to bottom left, var(--pink), var(--green));
+            background: linear-gradient(to bottom left, var(--secondary), var(--primary));
             transition: transform 0.2s ease;
         }
 
@@ -81,9 +81,9 @@
         }
 
         a {
-            color: var(--green);
+            color: var(--primary);
             padding: 2px;
-            text-shadow: 2px 2px var(--pink);
+            text-shadow: 2px 2px var(--secondary);
         }
     </style>
 </head>
